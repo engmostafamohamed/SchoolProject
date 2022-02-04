@@ -499,7 +499,7 @@ License: For each use you must have a valid license purchased only from above li
 									</div>
 								</div>
 								<div class="menu-item">
-									<a class="menu-link" href="https://preview.keenthemes.com/metronic8/demo1/layout-builder.html" title="Build your layout and export HTML for server side integration" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+									<a class="menu-link" href="../../demo1/dist/apps/ecommerce/sales/allStudent.html" title="Build your layout and export HTML for server side integration" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
 										<span class="menu-icon">
 											<!--begin::Svg Icon | path: icons/duotune/general/gen019.svg-->
 											<span class="svg-icon svg-icon-2">
@@ -1868,7 +1868,7 @@ License: For each use you must have a valid license purchased only from above li
 																			<span class="menu-bullet">
 																				<span class="bullet bullet-dot"></span>
 																			</span>
-																			<span class="menu-title">عرض الحزم</span>
+																			<span class="menu-title">عرض الطلاب</span>
 																		</a>
 																	</div>
 																	<div class="menu-item">
@@ -4433,44 +4433,12 @@ License: For each use you must have a valid license purchased only from above li
 								<!--begin::Page title-->
 								<div data-kt-swapper="true" data-kt-swapper-mode="prepend" data-kt-swapper-parent="{default: '#kt_content_container', 'lg': '#kt_toolbar_container'}" class="page-title d-flex align-items-center flex-wrap me-3 mb-5 mb-lg-0">
 									<!--begin::Title-->
-									<h1 class="d-flex align-items-center text-dark fw-bolder fs-3 my-1">عرض الحزم</h1>
+									<h1 class="d-flex align-items-center text-dark fw-bolder fs-3 my-1">عرض الطلاب</h1>
 									<!--end::Title-->
 									<!--begin::Separator-->
 									<span class="h-20px border-gray-300 border-start mx-4"></span>
 									<!--end::Separator-->
-									<!--begin::Breadcrumb-->
-									<ul class="breadcrumb breadcrumb-separatorless fw-bold fs-7 my-1">
-										<!--begin::Item-->
-										<li class="breadcrumb-item text-muted">
-											<a href="../../demo1/dist/index.html" class="text-muted text-hover-primary">Home</a>
-										</li>
-										<!--end::Item-->
-										<!--begin::Item-->
-										<li class="breadcrumb-item">
-											<span class="bullet bg-gray-300 w-5px h-2px"></span>
-										</li>
-										<!--end::Item-->
-										<!--begin::Item-->
-										<li class="breadcrumb-item text-muted">eCommerce</li>
-										<!--end::Item-->
-										<!--begin::Item-->
-										<li class="breadcrumb-item">
-											<span class="bullet bg-gray-300 w-5px h-2px"></span>
-										</li>
-										<!--end::Item-->
-										<!--begin::Item-->
-										<li class="breadcrumb-item text-muted">Sales</li>
-										<!--end::Item-->
-										<!--begin::Item-->
-										<li class="breadcrumb-item">
-											<span class="bullet bg-gray-300 w-5px h-2px"></span>
-										</li>
-										<!--end::Item-->
-										<!--begin::Item-->
-										<li class="breadcrumb-item text-dark">عرض الحزم</li>
-										<!--end::Item-->
-									</ul>
-									<!--end::Breadcrumb-->
+									
 								</div>
 								<!--end::Page title-->
 								<!--begin::Actions-->
@@ -4578,10 +4546,110 @@ License: For each use you must have a valid license purchased only from above li
 						<!--end::Toolbar-->
 						<!--begin::Post-->
 						<div class="post d-flex flex-column-fluid" id="kt_post">
+
+							
 							<!--begin::Container-->
 							
 							<div id="kt_content_container" class="container-xxl">
 								<!--begin::Products-->
+								<div class="card-header">
+									<div class="card-title">
+									<span class="card-icon">
+										<i class="icon-2x  text-primary flaticon2-quotation-mark"></i>
+									</span>
+										<h3 class="card-label">البحث</h3>
+									</div>
+								</div>
+								<div class="card card-flush">
+									<!--begin::Card header-->
+									
+									<div class="card-body pt-0">
+										<!--begin::Form-->
+										<!--begin::Form-->
+									<form id="kt_docs_formvalidation_text" class="form" action="#" autocomplete="off">
+										<!--begin::Input group-->
+										<div class="fv-row mb-10">
+											<!--begin::Label-->
+											<label class="required fw-bolder fs-6 mb-5 mt-5">البريد الإلكتروني</label>
+											<!--end::Label-->
+
+											<!--begin::Input-->
+											<input type="text" name="text_input" class="form-control form-control-solid mb-3 mb-lg-0" placeholder="ادخل كلمة البحث" value="" />
+											<!--end::Input-->
+
+											<!--begin::Label-->
+											<label class="required fw-bolder fs-6 mb-5 mt-5">الحزم</label>
+											<!--end::Label-->
+
+											<!--begin::Select2-->
+											<select class="form-select" name="select2_input" data-control="select2" data-placeholder="اختار عنصر">
+												<option></option>
+												<option value="1">Option 1</option>
+												<option value="2">Option 2</option>
+												<option value="3">Option 3</option>
+												<option value="4">Option 4</option>
+											</select>
+											<!--begin::Select2-->
+											<!--begin::Label-->
+											<label class="required fw-bolder fs-6 mb-5 mt-5">الحدث</label>
+											<!--end::Label-->
+
+											<!--begin::Select2-->
+											<select class="form-select" name="select2_input" data-control="select2" data-placeholder="اختار عنصر">
+												<option></option>
+												<option value="1">Option 1</option>
+												<option value="2">Option 2</option>
+												<option value="3">Option 3</option>
+												<option value="4">Option 4</option>
+											</select>
+											<!--begin::Select2-->
+											
+										</div>
+										<!--end::Input group-->
+
+										<!--begin::Actions-->
+										<button id="kt_docs_formvalidation_text_submit" type="submit" class="btn btn-primary">
+											<span class="indicator-label">
+												بحث
+											</span>
+											<span class="indicator-progress">
+												Please wait... <span class="spinner-border spinner-border-sm align-middle ms-2"></span>
+											</span>
+										</button>
+										<!--end::Actions-->
+									</form>
+									<!--end::Form-->
+									</div>
+									<!--end::Card header-->
+									
+								</div>
+								<!--end::Products-->
+							</div>
+							<!--end::Container-->
+						</div>
+						<!--end::Post-->
+					</div>
+					<!--end::Content-->
+
+					<!--begin::Content-->
+					<div class="content d-flex flex-column flex-column-fluid" id="kt_content">
+						
+						<!--begin::Post-->
+						<div class="post d-flex flex-column-fluid" id="kt_post">
+
+							
+							<!--begin::Container-->
+							
+							<div id="kt_content_container" class="container-xxl">
+								<!--begin::Products-->
+								<div class="card-header">
+									<div class="card-title">
+									<span class="card-icon">
+										<i class="icon-2x  text-primary flaticon2-quotation-mark"></i>
+									</span>
+										<h3 class="card-label">الطلاب</h3>
+									</div>
+								</div>
 								<div class="card card-flush">
 									<!--begin::Card header-->
 									<div class="col-sm-6 text-right">
@@ -4666,20 +4734,20 @@ License: For each use you must have a valid license purchased only from above li
 											<!--begin::Table head-->
 											<thead>
 												<!--begin::Table row-->
-												<tr class="text-start text-gray-400 fw-bolder fs-7 text-uppercase gs-0">
-													<th class="w-10px pe-2">
+												<tr class="text-start text-gray-400 fw-bolder fs-7 text-uppercase gs-0 " >
+													<th class="w-10px pe-0 !important">
 														<div class="form-check form-check-sm form-check-custom form-check-solid me-3">
 															<input class="form-check-input" type="checkbox" data-kt-check="true" data-kt-check-target="#kt_ecommerce_sales_table .form-check-input" value="1" />
 														</div>
 													</th>
 													<th class="min-w-70px">رقم التعريف </th>
-													<th class="min-w-70px">الحزم</th>
-													<th class="text-end min-w-70px">السعر</th>
-													<th class="text-end min-w-100px">السعر الافتراضي</th>
-													<th class="text-end min-w-100px">الخصم الافتراضي</th>
-													<th class="text-end min-w-70px">سعر التمديد</th>
-													<th class="text-end min-w-100px">تنتهي الصلاحية في (يوم)</th>
-													<th class="text-end min-w-70px">تمديد لـ(أيام)</th>
+													<th class="min-w-70px">الاسم</th>
+													<th class="text-end min-w-70px">البريد الالكتروني</th>
+													<th class="text-end min-w-100px">الدولة</th>
+													<th class="text-end min-w-100px">المدينة</th>
+													<th class="text-end min-w-70px">الهاتف</th>
+													<th class="text-end min-w-100px">البروتوكول الخاص بالطالب</th>
+													<th class="text-end min-w-70px"> بروتوكول الخادم<th>
 													<th class="text-end min-w-70px align-text-center">الاجراء</th>
 												</tr>
 												<!--end::Table row-->
